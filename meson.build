@@ -27,11 +27,3 @@ dependency('cairo-gobject')
 dependency('gtk-layer-shell-0')
 dependency('gobject-introspection-1.0')
 
-#patch = find_program('patch', required: true)
-#run_command(patch, 'submodules/cinnamon-desktop/libcvc/meson.build', 'submodules/libcvc.patch')
-
-#install_subdir(
-#  meson.project_name(),
-#  install_dir: python.get_install_dir()
-#)
-#subdir('submodules/cinnamon-desktop/libcvc')
